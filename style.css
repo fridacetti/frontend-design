@@ -1,16 +1,50 @@
 :root {
-    background: #E3EDFB;
+  background: #e3edfb;
 
-    --color-icon: #0B3A67;
+  --color-icon: #0b3a67;
 
-    --image-width: 8rem;
-    --card-padding: 1rem;
+  --image-width: 8rem;
+  --card-padding: 1rem;
 
-    --font-heading: 1.75rem;
+  --font-heading: 1.75rem;
 
-    /* Når du synes, du er færdig, så ændr værdien herunder til '1' for at se dit resultat i browseren */
-    --hide-overlay: 0;
+  /* Når du synes, du er færdig, så ændr værdien herunder til '1' for at se dit resultat i browseren */
+  /* --hide-overlay: 0; */
 }
 
-
 /* Begynd her... */
+.card {
+  padding: 1rem;
+  margin: 1rem;
+  background: #ffffff;
+
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-weight: 500;
+    padding-left: 5px;
+    color: rgb(95, 204, 168);
+  }
+
+  img {
+    max-width: 7rem;
+    border-radius: 50%;
+  }
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+
+  svg {
+    color: #064e92;
+    width: 1.5rem;
+  }
+}
