@@ -36,10 +36,10 @@ article {
 @container article (width < 550px) {
   /* fx centrér album-detaljer, fuldbredde knapper, negativ margin på .content */
   header img {
-    mask: linear-gradient(to bottom, black, transparent);
+    mask: linear-gradient(to bottom, black, transparent); /* Gør billedet slørret i bunden */
   }
   .content {
-    margin-top: -3rem;
+    margin-top: -3rem; /*rykker content op over det slørret på billedet*/
   }
   .actions li {
     flex: 1;
